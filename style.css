@@ -1,0 +1,92 @@
+
+    body
+    {
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to right top, #9571ea, #8f64ec, #8a55ed, #8546ed, #8033ed, #a125dd, #b914ce, #cb00be, #e700a1, #f61f86, #fc4270, #fb5f5f);
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    }
+
+    .main 
+    {
+        flex: 1;
+      }
+   
+      h1 {
+        font-size: 5rem;
+        color: white;
+        margin-top: 5px;
+      }
+      
+      footer p
+      {
+        text-align: right;
+        color: rgb(217, 246, 86);
+        font-family: 'Kanit', sans-serif;
+        font-size: 30px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+      }
+  h2
+  {
+    color: #60f69e;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    margin-top: 0%;
+  }
+  p
+  {
+    color: whitesmoke;
+    font-family: 'Kanit', sans-serif;
+    font-size:20px;
+  }
+.tile-image
+    {
+    height: 200px;
+   float: left;
+    margin-right: 50px;
+    }
+.card{
+    width: 45%;
+    
+}
+    .left{
+        float:left;
+       
+    }
+    .right{
+        float:right;
+    }
+    .creative{
+        color: transparent;
+       -webkit-text-stroke-width: 2px;
+       -webkit-text-stroke-color: #60f69e;
+    }
+    @media(max-width:680px)
+    {
+        .logo{
+            width: 100%;
+        }
+        h1 {
+            font-size: 3.5rem;
+            text-align: center;
+          }
+        .card{
+            width: 100%;
+            display: block;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+       .card img{
+       
+            margin-bottom: 10px;
+            width: 100%;
+            display: inline;
+            object-fit:cover;
+           }
+
+        }
+    
+  
